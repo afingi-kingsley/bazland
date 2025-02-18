@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply w-[135px] rounded-lg p-[0.75rem] bg-primary 
+}
+.btn-transparent {
+    @apply w-[135px] rounded-lg p-[0.75rem] border-[1px] border-solid border-blue-900 bg-white 
+}
+.btn-text {
+    @apply text-white leading-[16.94px] text-[0.875rem] font-normal font-inter
+}
+.btn-transparent-text {
+    @apply leading-[16.94px] text-[0.875rem] text-primary font-normal font-inter
+}
+
+.anchor-text {
+    @apply font-normal font-inter text-[0.938rem] leading-[18.15px] text-dark
+}
+.wrapper {
+    @apply container max-w-[1271px] mx-auto
+}
+.wrapp {
+    @apply container max-w-[1359px] mx-auto 
+}
+.properties {
+    @apply font-inter font-normal text-[0.938rem] text-dark leading-[18.15px]
+}
+.footter-text {
+    @apply font-Montserrat font-bold text-[1.563rem] text-white leading-[30.48px]
+}
+.footter-content {
+    @apply font-inter font-medium text-[1.25rem] leading-[24.2px] text-white
+}
+.showcase {
+    @apply font-inter font-semibold text-[1.5rem] leading-[29.05px] text-dark
+}
+.figure {
+    @apply font-inter font-normal text-[1rem] leading-[19.36px] text-100
+}
